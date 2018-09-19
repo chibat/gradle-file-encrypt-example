@@ -8,7 +8,7 @@ This repository is a example for gradle-file-encrypt plugin.
 ## decrypt
 
 ```
-$ git clone
+$ git clone https://github.com/chibat/gradle-file-encrypt-example.git
 $ cd gradle-file-encrypt-example
 $ echo "gfe.password=pass" > local.properties
 $ # or

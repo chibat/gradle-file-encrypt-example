@@ -1,5 +1,7 @@
 # gradle-file-encrypt plugin example
 
+[![Build Status](https://travis-ci.org/chibat/gradle-file-encrypt-example.svg?branch=master)](https://travis-ci.org/chibat/gradle-file-encrypt-example)
+
 This repository is a example for gradle-file-encrypt plugin.
 
 * https://github.com/CherryPerry/GradleFileEncrypt

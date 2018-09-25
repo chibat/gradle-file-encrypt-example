@@ -8,7 +8,7 @@ gradleFileEncrypt {
     // files to encrypt
     files 'src/main/resources/application-default.yml', 'src/main/resources/application-production.yml'
     // (optional) setup file mapping
-    // mapping = [ 'signing.properties' : 'secret/signing.properties' ]
+    mapping = [ 'src/main/resources/application-default.yml' : 'application-default.yml', 'src/main/resources/application-production.yml' : 'application-production.yml' ]
     // (optional) setup password provider
     // if provided one is not secure enough for you
     // passwordProvider { return 'YOUR LOGIC HERE'.toCharArray() }

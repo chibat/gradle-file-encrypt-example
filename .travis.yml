@@ -6,6 +6,7 @@ branches:
     - master
 script:
   - bash gradlew decryptFiles
+  - bash gradlew encryptFiles
 
 cache:
   directories:

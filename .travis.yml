@@ -6,6 +6,7 @@ branches:
     - master
 script:
   - bash gradlew decryptFiles
+  - rm application-*.yml.encrypted
   - bash gradlew encryptFiles
 
 cache:

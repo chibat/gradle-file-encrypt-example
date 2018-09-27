@@ -29,6 +29,11 @@ env: prodution
 $ ./gradlew encryptFiles
 ```
 
+If the command is not completed, set following environment value before 'gradlew'.
+```
+$ export JAVA_OPTS='-Dsecurerandom.strongAlgorithms=NativePRNGNonBlocking:SUN'
+```
+
 ## .gitignore
 
 ```

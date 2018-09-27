@@ -18,9 +18,9 @@ $ export GFE_PASSWORD=pass
 $
 $ ./gradlew decryptFiles
 $ cat src/main/resources/application-default.yml
-env: default
+password: foo
 $ cat src/main/resources/application-production.yml
-env: prodution
+password: bar
 ```
 
 ## encrypt
